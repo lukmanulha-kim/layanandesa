@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^Beranda$ admin.php [L]
+RewriteRule ^BerandaKades$ kades.php [L]
+RewriteRule ^Login$ login.php [L]
+RewriteRule ^Logout$ logout.php [L]
+RewriteRule ^Awal$ index.php [L]
+RewriteRule ^Permohonan$ index.php?page=mohon [L]
+RewriteRule ^DataDiri$ index.php?page=datadiri [L]
+RewriteRule ^Penduduk$ penduduk.php [L]
+RewriteRule ^Penduduk$ index.php?page=penduduk [L]
+RewriteRule ^PetugasBaru$ newuser.php [L]
+RewriteRule ^Tambah_Penduduk$ index.php?page=penduduk&&aksi=tambah [L]
+Options All -Indexes
